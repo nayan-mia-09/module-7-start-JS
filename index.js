@@ -37,11 +37,31 @@
 
 // Arithmatic Operator 
 
-let a = 10;
-let b = 15;
+// let a = 10;
+// let b = 15;
 
-console.log(a + b);
-console.log(b - a);
-console.log(a * b); 
-console.log(a / b);
-console.log(a % b); 
+// console.log(a + b);
+// console.log(b - a);
+// console.log(a * b); 
+// console.log(a / b);
+// console.log(a % b); 
+
+// Assignment Operator 
+
+let a = 15;
+
+a += 10;
+console.log(a); // 25
+
+a -= 5 ;
+console.log(a); // 20
+
+a *= 2;
+console.log(a); // 40
+
+a /= 2;
+console.log(a); // 20
+
+a %= 2;
+console.log(a); // 0
+
