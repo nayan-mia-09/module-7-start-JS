@@ -76,13 +76,31 @@
 
 // If Else
 
-let a = 20;
-let b = 20;
+// let a = 20;
+// let b = 20;
 
-if(a > b){
-    console.log("A is Bigger");
-}else if (a < b) {
-    console.log("B is Bigger");
-} else{
-    console.log("A and B are Similar");
+// if(a > b){
+//     console.log("A is Bigger");
+// }else if (a < b) {
+//     console.log("B is Bigger");
+// } else{
+//     console.log("A and B are Similar");
+// }
+
+// Switch Case
+
+let x = 1;
+
+switch (x) {
+    case 1:
+        console.log("ON");
+   break
+
+   case 0:
+        console.log("OFF");
+   break
+
+   default:
+    console.log("No Value Found");
+
 }
