@@ -89,18 +89,25 @@
 
 // Switch Case
 
-let x = 1;
+// let x = 1;
 
-switch (x) {
-    case 1:
-        console.log("ON");
-   break
+// switch (x) {
+//     case 1:
+//         console.log("ON");
+//    break
 
-   case 0:
-        console.log("OFF");
-   break
+//    case 0:
+//         console.log("OFF");
+//    break
 
-   default:
-    console.log("No Value Found");
+//    default:
+//     console.log("No Value Found");
 
-}
+// }
+
+// For Loop
+let num = 19;
+
+for(let i = 1; i <= 10; i ++){
+    console.log(num, "X", i, "=", i*num);
+};
