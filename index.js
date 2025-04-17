@@ -67,9 +67,22 @@
 
 // Comparison Operator 
 
-console.log(true && false); // false
-console.log(true && true); // true
-console.log(true || false); // true
-console.log(false || false); // false
-console.log(!true); // false
-console.log(!false); // true
+// console.log(true && false); // false
+// console.log(true && true); // true
+// console.log(true || false); // true
+// console.log(false || false); // false
+// console.log(!true); // false
+// console.log(!false); // true
+
+// If Else
+
+let a = 20;
+let b = 20;
+
+if(a > b){
+    console.log("A is Bigger");
+}else if (a < b) {
+    console.log("B is Bigger");
+} else{
+    console.log("A and B are Similar");
+}
