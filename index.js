@@ -48,20 +48,28 @@
 
 // Assignment Operator 
 
-let a = 15;
+// let a = 15;
 
-a += 10;
-console.log(a); // 25
+// a += 10;
+// console.log(a); // 25
 
-a -= 5 ;
-console.log(a); // 20
+// a -= 5 ;
+// console.log(a); // 20
 
-a *= 2;
-console.log(a); // 40
+// a *= 2;
+// console.log(a); // 40
 
-a /= 2;
-console.log(a); // 20
+// a /= 2;
+// console.log(a); // 20
 
-a %= 2;
-console.log(a); // 0
+// a %= 2;
+// console.log(a); // 0
 
+// Comparison Operator 
+
+console.log(true && false); // false
+console.log(true && true); // true
+console.log(true || false); // true
+console.log(false || false); // false
+console.log(!true); // false
+console.log(!false); // true
