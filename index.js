@@ -22,15 +22,26 @@
 
 // Non Primitive Data Type
 
-let person = {
-    name: "Kareem Amzad",
-    age : 49,
-    city: "Dhaka"
-};
+// let person = {
+//     name: "Kareem Amzad",
+//     age : 49,
+//     city: "Dhaka"
+// };
 
-console.log(person); // {name:"Kareem Amzad", age: 49 , city:"Dhaka"}
-console.log(typeof person); // object
+// console.log(person); // {name:"Kareem Amzad", age: 49 , city:"Dhaka"}
+// console.log(typeof person); // object
 
-let colors =["red", "yellow", "blue", "green"];
-console.log(colors); //["red", "yellow", "blue", "green"];
-console.log(typeof colors);// object
+// let colors =["red", "yellow", "blue", "green"];
+// console.log(colors); //["red", "yellow", "blue", "green"];
+// console.log(typeof colors);// object
+
+// Arithmatic Operator 
+
+let a = 10;
+let b = 15;
+
+console.log(a + b);
+console.log(b - a);
+console.log(a * b); 
+console.log(a / b);
+console.log(a % b); 
